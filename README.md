@@ -1,4 +1,4 @@
-🤖 YouTube-to-Blog AI Agent
+# 🤖 YouTube-to-Blog AI Agent
 (Practice Project using CrewAI & Groq)
 
 This project demonstrates a simple multi-agent AI system that converts a YouTube video into a well-structured blog post.
@@ -6,9 +6,9 @@ This project demonstrates a simple multi-agent AI system that converts a YouTube
 It was built purely for practice to understand how AI agents collaborate, use tools, and complete tasks using large language models. This is not a production-grade application.
 
 
-==================================================
+
 📌 Project Overview
-==================================================
+
 
 The YouTube-to-Blog AI Agent automates the following workflow:
 
@@ -20,9 +20,8 @@ The YouTube-to-Blog AI Agent automates the following workflow:
 This project focuses on learning agent orchestration rather than performance or scale.
 
 
-==================================================
 🧠 How It Works
-==================================================
+
 
 - The Research Agent extracts key points, themes, and insights from the YouTube video
 - The Writing Agent uses this research to generate a readable and structured blog
@@ -30,9 +29,9 @@ This project focuses on learning agent orchestration rather than performance or 
 - Groq (Llama 3-70B) powers all language generation
 
 
-==================================================
+
 📁 Project Structure
-==================================================
+
 
 .
 ├── tools.py
@@ -51,9 +50,8 @@ This project focuses on learning agent orchestration rather than performance or 
 │   - Main entry point that initializes the crew and runs the workflow
 
 
-==================================================
+
 🚀 Technologies Used
-==================================================
 
 - Framework: CrewAI
 - LLM Provider: Groq
@@ -62,9 +60,9 @@ This project focuses on learning agent orchestration rather than performance or 
 - Environment: Google Colab
 
 
-==================================================
+
 🛠️ Setup & Installation
-==================================================
+
 
 Step 1: Install Required Dependencies
 
@@ -79,9 +77,8 @@ import os
 os.environ["GROQ_API_KEY"] = "your_groq_api_key"
 
 
-==================================================
+
 ▶️ How to Run the Project
-==================================================
 
 1. Upload all project files (.py) into the /content directory in Google Colab
 2. Run the main script:
@@ -89,9 +86,9 @@ os.environ["GROQ_API_KEY"] = "your_groq_api_key"
 python crew.py
 
 
-==================================================
+
 📝 Output
-==================================================
+
 
 - The generated blog post is saved as:
   new-blog-post.md
@@ -103,9 +100,9 @@ python crew.py
   A blog article generated from the YouTube video analysis
 
 
-==================================================
+
 ⚠️ Important Notes
-==================================================
+
 
 - This project was built only for practice and learning purposes
 - Main learning goals:
@@ -115,9 +112,9 @@ python crew.py
 - Not optimized for real-world deployment
 
 
-==================================================
+
 💡 Future Improvements
-==================================================
+
 
 - Accept multiple YouTube URLs
 - Add SEO-focused blog generation
