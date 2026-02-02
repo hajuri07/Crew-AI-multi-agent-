@@ -1,4 +1,4 @@
-🤖 YouTube-to-Blog AI Agent (Practice Project)
+***🤖 YouTube-to-Blog AI Agent (Practice Project)***
 This is a practice project built using CrewAI and Groq to automate the process of researching YouTube videos and turning them into engaging blog posts.
 
 📁 Project Structure
